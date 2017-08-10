@@ -1,0 +1,17 @@
+.sticker {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  max-width: 59px;
+  &:before {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    content: "p";
+    font-family: 'BebasNeue', sans-serif;
+    color:  $c-white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}

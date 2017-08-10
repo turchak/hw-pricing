@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'themify';
+	src:url('../fonts/themify/themify.eot?-fvbane');
+	src:url('../fonts/themify/themify.eot?#iefix-fvbane') format('embedded-opentype'),
+		  url('../fonts/themify/themify.woff?-fvbane') format('woff'),
+		  url('../fonts/themify/themify.ttf?-fvbane') format('truetype'),
+		  url('../fonts/themify/themify.svg?-fvbane#themify') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="ti-"], [class*=" ti-"] {
+	font-family: 'themify';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ti-paint-bucket:before {
+	content: "\e61f";
+}
+.ti-hummer:before {
+	content: "\e69a";
+}
+.ti-palette:before {
+	content: "\e6e0";
+}
