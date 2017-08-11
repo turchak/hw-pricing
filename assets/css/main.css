@@ -178,6 +178,16 @@
     line-height: 11px;
     text-align: center; }
 
+.no-flexbox .box, .price__number-currency, .price__number-quantity, .price__number-unit {
+  display: inline-block; }
+
+.no-flexbox .box__info-decoration {
+  text-align: center; }
+
+.no-csstransforms .box__button {
+  left: 62px;
+  bottom: -27px; }
+
 .sticker {
   position: absolute;
   top: 10px;
